@@ -1,32 +1,28 @@
-import Button from "@/components/Button";
-import Card from "@/components/Card";
-import Divider from "@/components/Divider";
+import React from "react";
+import AdviceCard from "@/components/AdviceGenerator";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[0px_1fr_20px] items-center justify-items-center min-h-screen px-8 pb-16 gap-16 font-[family-name:var(--font-manrope)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Card>
-          <div className="py-5 uppercase text-center text-xs text-[var(--title)] font-[900] tracking-[0.25em]">
-            advice # 1
-          </div>
-          <div className="font-extrabold text-[var(--foreground) text-[var(--fontSize)]	text-center">
-            Hello World! Welcome to Advice Generator App.
-          </div>
-          <Divider />
-        </Card>
-        <div className="mx-auto -translate-y-[110%] bg-[var(--button)] rounded-full glow">
-          <Button />
-        </div>
+    <div className="flex flex-col justify-center md:grid md:grid-rows-[0px_1fr_20px] md:gap-16 items-center justify-items-center min-h-screen md:px-8 md:pb-16  font-[family-name:var(--font-primary)]">
+      <main className="md:flex md:flex-col md:gap-8 md:row-start-2 items-center">
+        <AdviceCard />
       </main>
-      <footer className="row-start-5 flex gap-6 flex-wrap items-center justify-center">
+      <footer className="hidden md:inline text-center align-baseline md:row-start-5">
+        Challenge by{" "}
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Challenge by Frontend Mentor, Coded by snhase.
+          Frontend Mentor
+        </a>{" "}
+        . Coded by{" "}
+        <a
+          href="https://github.com/snhase"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          snhase
         </a>
       </footer>
     </div>

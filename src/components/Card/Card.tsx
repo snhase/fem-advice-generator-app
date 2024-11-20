@@ -6,7 +6,7 @@ interface Props {
 
 function Card({ children }: Props) {
   return (
-    <div className="w-4/6 mx-auto px-5 py-5 shadow-card rounded-xl bg-[var(--cardBackground)]">
+    <div className="w-3/6 md:w-4/6 mx-auto px-5 py-5 shadow-card rounded-xl bg-[var(--cardBackground)]">
       {children}
     </div>
   );

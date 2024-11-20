@@ -18,7 +18,6 @@
     --button: hsl(150, 100%, 66%);
     --title: hsl(150, 100%, 66%);
     --divider: hsl(217, 19%, 38%);
-    --fontSize: 28px;
   }
 }
 
@@ -33,4 +32,8 @@ body {
   -moz-box-shadow: 0 0 2rem hsl(150, 100%, 66%);
   box-shadow: 0 0 2rem hsl(150, 100%, 66%);
   filter: brightness(110%);
+}
+
+a:hover {
+  text-decoration: underline;
 }

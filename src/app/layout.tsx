@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Manrope, Flow_Block } from "next/font/google";
 import "./globals.css";
 
-const Manrope = localFont({
-  src: "./fonts/Manrope-VariableFont_wght.ttf",
-  variable: "--font-manrope",
-  weight: "100 800",
+const primaryFont = Manrope({
+  variable: "--font-primary",
+  weight: ["200", "800"],
+});
+
+const loadingFont = Flow_Block({
+  variable: "--font-loading",
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
   title: "Advice generator app | Frontend Mentor Challenge ",
-  description: "Advice generator application",
+  description: "Advice generator app",
 };
 
 export default function RootLayout({
@@ -20,7 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${Manrope.variable} antialiased`}>{children}</body>
+      <body
+        className={`${primaryFont.variable} ${loadingFont.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
