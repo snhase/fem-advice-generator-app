@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/snhase/fem-advice-generator-app)
-- Live Site URL: [Live site] (https://fem-advice-generator-app-rosy.vercel.app)
+- Live Site URL: [Live site](https://fem-advice-generator-app-rosy.vercel.app)
 
 ## My process
 
