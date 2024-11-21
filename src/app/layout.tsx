@@ -5,11 +5,13 @@ import "./globals.css";
 const primaryFont = Manrope({
   variable: "--font-primary",
   weight: ["200", "800"],
+  subsets: ["latin"],
 });
 
 const loadingFont = Flow_Block({
   variable: "--font-loading",
   weight: ["400"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
