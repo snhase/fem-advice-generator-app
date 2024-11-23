@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js Documentation](https://nextjs.org/learn)
 - [Animations with Tailwind CSS](https://tailwindcss.com/docs/animation)
 - [Typescript Cheat Sheets](https://www.typescriptlang.org/cheatsheets)
 
