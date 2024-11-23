@@ -3,22 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(360 100% 100%);
-  --foreground: #171717;
-  --cardBackground: hsl(193, 38%, 86%);
-  --cardForeground: hsl(217, 19%, 24%);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: hsl(218, 23%, 16%);
-    --foreground: hsl(193, 38%, 86%);
-    --cardBackground: hsl(217, 19%, 24%);
-    --cardForeground: hsl(193, 38%, 86%);
-    --button: hsl(150, 100%, 66%);
-    --title: hsl(150, 100%, 66%);
-    --divider: hsl(217, 19%, 38%);
-  }
+  --background: hsl(218, 23%, 16%);
+  --foreground: hsl(193, 38%, 86%);
+  --cardBackground: hsl(217, 19%, 24%);
+  --cardForeground: hsl(193, 38%, 86%);
+  --button: hsl(150, 100%, 66%);
+  --title: hsl(150, 100%, 66%);
+  --divider: hsl(217, 19%, 38%);
 }
 
 body {
